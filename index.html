@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keyboard Punch Demo</title>
+<link rel="stylesheet" href="screen.css">
+<script src="jquery-1.7.1.min.js"></script>
+<script src="jquery.animate-colors-min.js"></script>
+<script src="Point2D.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+<div id="arena">
+	<!--<img src="testimage2.png" width=640 height=480>-->
+	<div id="instruction">
+		Drag your hand across your keyboard pressing random keys along the way.<br><br>
+		<span style="font-size:13px;color:#999;">(This demo is only for computers with keyboards.)</div>
+	</div>
+</div>
+<div id="view">
+	<div class="key row1" id="k192"><div class="key-inner">~</div></div>
+	<div class="key row1" id="k49"><div class="key-inner">1</div></div>
+	<div class="key row1" id="k50"><div class="key-inner">2</div></div>
+	<div class="key row1" id="k51"><div class="key-inner">3</div></div>
+	<div class="key row1" id="k52"><div class="key-inner">4</div></div>
+	<div class="key row1" id="k53"><div class="key-inner">5</div></div>
+	<div class="key row1" id="k54"><div class="key-inner">6</div></div>
+	<div class="key row1" id="k55"><div class="key-inner">7</div></div>
+	<div class="key row1" id="k56"><div class="key-inner">8</div></div>
+	<div class="key row1" id="k57"><div class="key-inner">9</div></div>
+	<div class="key row1" id="k48"><div class="key-inner">0</div></div>
+	<div class="key row1" id="k189"><div class="key-inner">-</div></div>
+	<div class="key row1" id="k187"><div class="key-inner">=</div></div>
+	<div class="key row1" id="k8"><div class="key-inner">del</div></div>
+	
+	<div class="key row2" id="k9"><div class="key-inner">tab</div></div>
+	<div class="key row2" id="k81"><div class="key-inner">q</div></div>
+	<div class="key row2" id="k87"><div class="key-inner">w</div></div>
+	<div class="key row2" id="k69"><div class="key-inner">e</div></div>
+	<div class="key row2" id="k82"><div class="key-inner">r</div></div>
+	<div class="key row2" id="k84"><div class="key-inner">t</div></div>
+	<div class="key row2" id="k89"><div class="key-inner">y</div></div>
+	<div class="key row2" id="k85"><div class="key-inner">u</div></div>
+	<div class="key row2" id="k73"><div class="key-inner">i</div></div>
+	<div class="key row2" id="k79"><div class="key-inner">o</div></div>
+	<div class="key row2" id="k80"><div class="key-inner">p</div></div>
+	<div class="key row2" id="k219"><div class="key-inner">[</div></div>
+	<div class="key row2" id="k221"><div class="key-inner">]</div></div>
+	<div class="key row2" id="k220"><div class="key-inner">\</div></div>
+	
+	<div class="key row3" id="k20"><div class="key-inner">caps</div></div>
+	<div class="key row3" id="k65"><div class="key-inner">a</div></div>
+	<div class="key row3" id="k83"><div class="key-inner">s</div></div>
+	<div class="key row3" id="k68"><div class="key-inner">d</div></div>
+	<div class="key row3" id="k70"><div class="key-inner">f</div></div>
+	<div class="key row3" id="k71"><div class="key-inner">g</div></div>
+	<div class="key row3" id="k72"><div class="key-inner">h</div></div>
+	<div class="key row3" id="k74"><div class="key-inner">j</div></div>
+	<div class="key row3" id="k75"><div class="key-inner">k</div></div>
+	<div class="key row3" id="k76"><div class="key-inner">l</div></div>
+	<div class="key row3" id="k186"><div class="key-inner">;</div></div>
+	<div class="key row3" id="k222"><div class="key-inner">'</div></div>
+	<div class="key row3" id="k13"><div class="key-inner">return</div></div>
+	
+	<div class="key row4 k16" id="k16left"><div class="key-inner">shift</div></div>
+	<div class="key row4" id="k90"><div class="key-inner">z</div></div>
+	<div class="key row4" id="k88"><div class="key-inner">x</div></div>
+	<div class="key row4" id="k67"><div class="key-inner">c</div></div>
+	<div class="key row4" id="k86"><div class="key-inner">v</div></div>
+	<div class="key row4" id="k66"><div class="key-inner">b</div></div>
+	<div class="key row4" id="k78"><div class="key-inner">n</div></div>
+	<div class="key row4" id="k77"><div class="key-inner">m</div></div>
+	<div class="key row4" id="k188"><div class="key-inner">,</div></div>
+	<div class="key row4" id="k190"><div class="key-inner">.</div></div>
+	<div class="key row4" id="k191"><div class="key-inner">/</div></div>
+	<div class="key row4 k16" id="k16right"><div class="key-inner">shift</div></div>
+</div>
+</body>
+</html>
